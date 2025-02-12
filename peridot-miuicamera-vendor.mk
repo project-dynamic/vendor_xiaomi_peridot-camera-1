@@ -6,8 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/peridot-miuicamera
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/peridot-miuicamera/proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
-    vendor/xiaomi/peridot-miuicamera/proprietary/odm/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiStereoCalibLib_qual.so \
+    vendor/xiaomi/peridot-miuicamera/proprietary/vendor/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
+    vendor/xiaomi/peridot-miuicamera/proprietary/vendor/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoCalibLib_qual.so \
     vendor/xiaomi/peridot-miuicamera/proprietary/system/lib64/libgui-xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgui-xiaomi.so \
     vendor/xiaomi/peridot-miuicamera/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
     vendor/xiaomi/peridot-miuicamera/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
