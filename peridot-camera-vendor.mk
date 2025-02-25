@@ -5,14 +5,12 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/peridot-camera
 
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/peridot-camera/proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
-    vendor/xiaomi/peridot-camera/proprietary/odm/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiStereoCalibLib_qual.so \
-    vendor/xiaomi/peridot-camera/proprietary/system/lib64/libgui-xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgui-xiaomi.so \
-    vendor/xiaomi/peridot-camera/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
-    vendor/xiaomi/peridot-camera/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
-    vendor/xiaomi/peridot-camera/proprietary/system/lib64/libmicampostproc_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmicampostproc_client.so \
-    vendor/xiaomi/peridot-camera/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
 PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.campostproc@1.0 \
+    libMiStereoFactoryCalibAnalyzeBin_qual \
+    libmiStereoCalibLib_qual \
+    MIUIVideoPlayer \
+    MiuixEditor_global \
+    MIUIGalleryGlobal \
     MiuiCamera
