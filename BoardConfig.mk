@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-MIUICAMERA_PATH := device/xiaomi/peridot-camera
+MIUICAMERA_PATH := vendor/xiaomi/peridot-camera
 
 # Inherit from the proprietary version
 include vendor/xiaomi/peridot-camera/BoardConfigVendor.mk
