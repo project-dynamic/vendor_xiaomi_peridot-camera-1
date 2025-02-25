@@ -1,0 +1,2 @@
+# Camera
+/(vendor|odm)/bin/hw/vendor\.qti\.camera\.provider-service_64 u:object_r:hal_camera_default_exec:s0
