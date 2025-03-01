@@ -8,7 +8,9 @@ odm/lib64/libmiStereoCalibLib_qual.so
 system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so;SUFFIX=system_ext
 
 # Apps
-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera,Camera2,GoogleCameraGo
 product/priv-app/MIUIGalleryGlobal/MIUIGalleryGlobal.apk:system/priv-app/MIUIGalleryGlobal/MIUIGalleryGlobal.apk
 system_ext/app/MiuixEditor_global/MiuixEditor_global.apk:system/app/MiuixEditor_global/MiuixEditor_global.apk
 mi_ext/product/app/MIUIVideoPlayer/MIUIVideoPlayer.apk:system/app/MIUIVideoPlayer/MIUIVideoPlayer.apk
+
+# Cam
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera,Camera2,GoogleCameraGo
